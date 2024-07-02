@@ -27,18 +27,18 @@
 @endsection
 
 @section('content')
-  <section class="hero ">
+  <section class="hero">
    <img src="https://www.foodpanda.com/wp-content/uploads/2023/02/about-foodpanda-1920x539.jpeg" alt="">
     <div class="title">
       <div class="about_title">
-        <h2 class="animate__animated animate__backInLeft leading-normal md:text-5xl text-3xl">About <br>
+        <h2 data-aos="fade-right" class="leading-normal md:text-5xl text-3xl">About <br>
             foodpanda</h2>
         </div>
     </div>
   </section>
 
 
-  <section class="lg:px-4 animate__animated animate__bounceInLeft animate__delay-2s max-w-screen-xl mx-auto md:py-8 pt-4 md:pt-0 md:my-0 w-full">
+  <section data-aos="fade-right" class="section__text lg:px-4 max-w-screen-xl mx-auto md:py-8 pt-4 md:pt-0 md:my-0 w-full">
     <div class="content-width md:py-16 md:flex md:items-center justify-between">
         <div class="md:w-2/3 md:pr-8 lg:pr-16 mt-8 md:mt-0 order-1 flex flex-col items-start justify-center  md:order-0 ">
             <aside class=" p-4 md:p-0">
@@ -52,34 +52,34 @@
     </div>
   </section>
 
-  <section class="about-carousel max-w-screen-xl md:mx-auto md:py-8 md:my-10 lg:px-4 px-4">
+  <section class=" about-carousel max-w-screen-xl md:mx-auto md:py-8 md:my-10 lg:px-4 px-4">
     <div id="default-carousel" class="relative w-full" data-carousel="slide">
       <!-- Carousel wrapper -->
       <div class="relative h-96 overflow-hidden rounded-lg md:h-96">
            <!-- Item 1 -->
           <div class="hidden duration-700 ease-in-out" data-carousel-item>
             <a href="#" class="absolute block w-full grid grid-cols-1 gap-6 sm:grid-cols-2 bg-white border-gray-200  dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-              <div class=" md:px-0 animate__animated animate__backInLeft animate__delay-3s">
+              <div class=" md:px-0 ">
                   <h2 class="mb-2  md:text-5xl font-bold tracking-tight text-gray-900 dark:text-white  text-3xl">Noteworthy technology acquisitions 2021</h2>
                   <p class="md:my-6 font-normal text-gray-700 dark:text-gray-400">What makes quick commerce quick? We stand for swift personalised delivery solutions for our customers, partners and employees. Learn how we empower authentic lifestyles and drive innovation across the globe.</p>
               </div>
-              <img class="animate__animated animate__backInRight animate__delay-3s object-cover w-full rounded-t-lg h-96 md:h-auto  " src="https://www.foodpanda.com/wp-content/uploads/2023/02/foodpanda-home-2-1024x576.jpg" alt="">
+              <img class="object-cover w-full rounded-t-lg h-96 md:h-auto  " src="https://www.foodpanda.com/wp-content/uploads/2023/02/foodpanda-home-2-1024x576.jpg" alt="">
             </a>
               {{-- <img src="/docs/images/carousel/carousel-1.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."> --}}
           </div>
           <div class="hidden duration-700 ease-in-out" data-carousel-item>
             <a href="#" class="absolute block w-full grid grid-cols-1 gap-6 sm:grid-cols-2 bg-white border-gray-200  dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-              <div class=" md:px-0 animate__animated animate__backInLeft animate__delay-3s">
+              <div class=" md:px-0 ">
                   <h2 class="mb-2  md:text-5xl font-bold tracking-tight text-gray-900 dark:text-white  text-3xl">Noteworthy technology acquisitions 2021</h2>
                   <p class="md:my-6 font-normal text-gray-700 dark:text-gray-400">What makes quick commerce quick? We stand for swift personalised delivery solutions for our customers, partners and employees. Learn how we empower authentic lifestyles and drive innovation across the globe.</p>
               </div>
-              <img class="animate__animated animate__backInRight animate__delay-3s object-cover w-full rounded-t-lg h-96 md:h-auto  " src="https://www.foodpanda.com/wp-content/uploads/2023/02/foodpanda-home-2-1024x576.jpg" alt="">
+              <img class=" object-cover w-full rounded-t-lg h-96 md:h-auto  " src="https://www.foodpanda.com/wp-content/uploads/2023/02/foodpanda-home-2-1024x576.jpg" alt="">
             </a>
               {{-- <img src="/docs/images/carousel/carousel-1.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."> --}}
           </div>
           <div class="hidden duration-700 ease-in-out" data-carousel-item>
             <a href="#" class="absolute block w-full grid grid-cols-1 gap-6 sm:grid-cols-2 bg-white border-gray-200  dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-              <div class=" md:px-0 animate__animated animate__backInLeft animate__delay-3s">
+              <div class=" md:px-0 ">
                   <h2 class="mb-2  md:text-5xl font-bold tracking-tight text-gray-900 dark:text-white  text-3xl">Noteworthy technology acquisitions 2021</h2>
                   <p class="md:my-6 font-normal text-gray-700 dark:text-gray-400">What makes quick commerce quick? We stand for swift personalised delivery solutions for our customers, partners and employees. Learn how we empower authentic lifestyles and drive innovation across the globe.</p>
               </div>
@@ -119,10 +119,10 @@
     </div>
   </section>
 
-  <section class="animate__animated animate__backInDown taps md:mt-16 max-w-screen-xl md:mx-auto md:py-6 ">
+  <section data-aos="fade-down" class="section__text taps md:mt-16 max-w-screen-xl md:mx-auto md:py-6 ">
     <div class="w-full">
       <span class="text-center w-full">
-        <h2 class="text-5xl mb-12"> Our values </h2>
+        <h2 class="text-5xl my-10 mb-12"> Our values </h2>
       </span>
     </div>
 
@@ -197,16 +197,14 @@
 
   </section>
 
-
-  
-  <section class=" card-bottom max-w-screen-xl md:px-0 mx-auto md:py-8 my-10 px-4 lg:px-4">
+  <section class="section__text card-bottom max-w-screen-xl md:px-0 mx-auto md:py-8 my-10 px-4 lg:px-4">
     <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 bg-white border-gray-200  dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-      <div class="animate__animated animate__backInLeft animate__delay-4s">
+      <div data-aos="fade-right" class="">
           <h2 class="mb-2  md:text-5xl font-bold tracking-tight text-gray-900 dark:text-white  text-3xl">Noteworthy technology acquisitions 2021</h2>
           <p class="my-6 font-normal text-gray-700 dark:text-gray-400">What makes quick commerce quick? We stand for swift personalised delivery solutions for our customers, partners and employees. Learn how we empower authentic lifestyles and drive innovation across the globe.</p>
           <button type="button" class="my-6 focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Read our story</button>
       </div>
-      <img class="animate__animated animate__bounceInRight animate__delay-4s object-cover w-full rounded-t-lg h-96 md:h-auto  " src="https://www.foodpanda.com/wp-content/uploads/2023/02/foodpanda-home-2-1024x576.jpg" alt="">
+      <img data-aos="fade-left" class="object-cover w-full rounded-t-lg h-96 md:h-auto  " src="https://www.foodpanda.com/wp-content/uploads/2023/02/foodpanda-home-2-1024x576.jpg" alt="">
     </div>
   </section>
 @endsection

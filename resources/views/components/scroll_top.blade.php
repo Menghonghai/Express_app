@@ -49,7 +49,6 @@
             height: 50px;
             cursor: pointer;
             transition: all .3s linear;
-            transform: rotate(270deg);
         }
 
         .btn-scroll-top:hover {
@@ -65,7 +64,7 @@
 <body>
     <div class="scroll-top" onclick="topFunction()">
         <button id="myBtn" class="btn-scroll-top">
-            <i class="fa-solid fa-shuttle-space"></i>
+            <i class="fa-solid fa-arrow-up"></i>
         </button>
     </div>
     <script>

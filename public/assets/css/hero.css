@@ -46,6 +46,10 @@
         /* font-size: 71px; */
     
     }
+    .section__text{
+
+        overflow-x: hidden;
+    }
    
     .top-30{
         top: 30%;
@@ -61,3 +65,5 @@
     
     }
   }
+
+  

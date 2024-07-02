@@ -13,12 +13,11 @@ const load = ()=>{
     } else {
         localeKh=localStorage.getItem('langKh')
     }
+
     if (localeKh) {
-        document.getElementById('dropdown').classList.remove('hidden')
-        document.getElementById('dropdown').classList.add('inline-flex')
-        document.getElementById('dropdown').classList.remove('inline-flex')
-        document.getElementById('dropdown').classList.add('hidden')
-    } else {
-        document.getElementById('dropdown').classList.remove()
+        document.getElementById('btn-1').classList.remove('inline-flex')
+        document.getElementById('btn-1').classList.add('hidden')
+        document.getElementById('btn-2').classList.remove('hidden')
+        document.getElementById('btn-2').classList.add('inline-flex')
     }
 }
