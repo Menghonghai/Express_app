@@ -2,18 +2,62 @@
 .hero{
     position: relative;
 }
-.hero .title{
+.hero .title,.hero .about_title{
     position: absolute;
     top: 50%;
-    left: 7%;
+    left: 10%;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
     color: #fff;
-    font-size: 71px;
+    /* font-size: 71px; */
 
 }
-@media screen and (max-width: 400px) {
+
+
+.pricing.pt-400{
+    padding-top: 7rem;
+
+}
+@media screen and (max-width: 700px) {
+    .hero {
+        margin-top:4rem;
+    }
+   
     .hero .title {
         font-size: 1.4rem;
+        top: 40%;
+    }
+    /* .hero .title .about-title{
+    } */
+    .m-section{
+        margin: 0 1rem;
+    }
+    section .order-1{
+        order: 1;
+    }
+    section .order-2{
+        order: 2;
+    }
+   
+  }
+  @media screen and (max-width: 450px) {
+    .hero .title{
+        left: 3%;
+        /* font-size: 71px; */
+    
+    }
+   
+    .top-30{
+        top: 30%;
+    }
+    .hero .about_title{
+        top:30% ;
+    }
+  }
+  @media screen and (max-width: 1024px) {
+    .hero .title{
+        left: 3%;
+        /* font-size: 71px; */
+    
     }
   }

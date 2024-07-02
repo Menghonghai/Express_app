@@ -36,15 +36,6 @@
   outline: 0;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  color: var(--first-color);
-  font-family: var(--body-font);
-  font-size: var(--normal-font-size);
-  background: var(--white-color);
-  font-weight: 400;
-}
 
 h1,
 p,
@@ -95,9 +86,9 @@ body {
     background-repeat: no-repeat;
 }
 
-section {
+/* section {
     padding: 80px 0;
-}
+} */
 
 /*=======================================================
 Base
@@ -315,20 +306,20 @@ p.description {
     margin-top: 1px;
 }
 
-ul.card__list li {
+/* ul.card__list .li {
     display: flex;
     align-items: baseline;
     font-size: 16px;
     margin-bottom: 16px;
-}
-
+} */
+/* 
 li.op-hidden {
     opacity: .3;
 }
 
 ul.card__list li i {
     margin-right: 12px;
-}
+} */
 
 .price {
     font-size: 17px;

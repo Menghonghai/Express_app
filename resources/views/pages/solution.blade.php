@@ -37,18 +37,18 @@
         <img src="{{ asset('assets/images/delivery/solutions.jpg') }}" alt="">
         <div class="title">
             <div class="">
-                <h2 class="leading-normal">Solutions <br>
+                <h2 class="leading-normal text-3xl md:text-5xl">Solutions <br>
                     Everex Express</h2>
             </div>
         </div>
     </section>
 
-    <section class="max-w-screen-xl mx-auto md:py-8 pt-8 md:pt-0 md:my-0 w-full ">
+    <section class="animate__animated animate__bounceInLeft animate__delay-2s max-w-screen-xl mx-auto md:py-8 md:pt-8 md:my-0 w-full ">
         <div class="content-width md:py-16 md:flex md:items-center justify-center text-center">
             <div
                 class="md:w-2/3 md:pr-8 lg:pr-16 mt-8 md:mt-0 order-1 flex flex-col items-start justify-center  md:order-0 ">
                 <aside class=" p-4 md:p-0">
-                    <h2 class="text-5xl font-bold my-12">Welcome To Our Website.</h2>
+                    <h2 class="md:text-5xl text-3xl font-bold md:my-12 my-8">Welcome To Our Website.</h2>
                     <p>A subsidiary of Delivery Hero, foodpanda launched in Singapore in 2014 as a food delivery platform.
                         Dedicated to helping customers get their tasty favourites fast, it quickly won the hearts and minds
                         of customers in APAC.</p>
@@ -62,7 +62,7 @@
         </div>
     </section>
 
-    <section class="max-w-screen-xl mx-auto md:py-8 my-10">
+    <section class="animate__animated animate__bounceInUp animate__delay-2s max-w-screen-xl mx-auto md:py-8 my-10">
         <div class="grid grid-cols-1 gap-6 sm:grid-cols-3">
             <div
                 class="max-w-sm p-6 bg-red-700 border border-gray-200  dark:bg-red-700 dark:border-gray-700 flex flex-col items-center justify-center">
@@ -140,7 +140,7 @@
 
     </section>
 
-    <section class="max-w-screen-xl mx-auto md:py-8 my-10">
+    <section class="max-w-screen-xl mx-auto md:py-8 my-10 animate__animated animate__bounceInRight animate__delay-3s">
         <div class="content-width md:py-1 md:flex md:items-center justify-center text-center">
             <div
                 class="md:w-2/3 md:pr-8 lg:pr-16 mt-8 md:mt-0 order-1 flex flex-col items-start justify-center  md:order-0 ">
@@ -153,16 +153,10 @@
             </div>
         </div>
     </section>
-{{-- 
-    <section>
-      <ol class="items-center justify-center sm:flex grid grid-cols-1 gap-6 sm:grid-cols-3">
-        
-    </ol>
 
-    </section> --}}
 
-    <section class="max-w-screen-xl mx-auto md:py-8">
-      <div class="grid grid-cols-1 gap-6 sm:grid-cols-3">
+    <section class="animate__animated animate__bounceInUp animate__delay-3s max-w-screen-xl mx-auto md:py-8 lg:px-4 ">
+      <div class="grid grid-cols-1 gap-6 sm:grid-cols-3 px-4 md:px-0">
           
           <div
               class="max-w-sm bg-white  dark:bg-red-700 dark:border-gray-700 ">
@@ -387,7 +381,7 @@
 
   </section>
 
-    <section class="about-carousel max-w-screen-xl mx-auto md:py-8 my-10">
+    <section class="about-carousel max-w-screen-xl mx-auto md:py-8 my-10 lg:px-4">
         <div id="default-carousel" class="relative w-full" data-carousel="slide">
             <!-- Carousel wrapper -->
             <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
@@ -521,7 +515,7 @@
         </div>
     </section>
 
-    <section class="taps md:mt-16 max-w-screen-xl mx-auto md:py-6">
+    <section class="animate__animated animate__bounceInUp animate__delay-4s taps md:mt-16 max-w-screen-xl mx-auto md:py-6 lg:px-4">
         <div class="w-full">
             <span class="text-center w-full">
                 <h2 class="text-5xl mb-12"> Our values </h2>
@@ -648,21 +642,14 @@
 
 
 
-    <section class="card-bottom max-w-screen-xl mx-auto md:py-8 my-10">
-        <div
-            class=" grid grid-cols-1 gap-6 sm:grid-cols-2 bg-white border-gray-200  dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <div>
-                <h2 class="mb-2 text-5xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology
-                    acquisitions 2021</h2>
-                <p class="my-6 font-normal text-gray-700 dark:text-gray-400">What makes quick commerce quick? We stand for
-                    swift personalised delivery solutions for our customers, partners and employees. Learn how we empower
-                    authentic lifestyles and drive innovation across the globe.</p>
-                <button type="button"
-                    class="my-6 focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Read
-                    our story</button>
-            </div>
-            <img class="object-cover w-full rounded-t-lg h-96 md:h-auto  "
-                src="https://www.foodpanda.com/wp-content/uploads/2023/02/foodpanda-home-2-1024x576.jpg" alt="">
-        </div>
-    </section>
+    <section class="animate__animated animate__bounceInUp animate__delay-4s m-section card max-w-screen-xl md:mx-auto md:py-12 px-4 md:px-0 my-10 lg:px-4">
+        <a class=" grid grid-cols-1 gap-6 sm:grid-cols-2 bg-white border-gray-200  dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+          <div class="animate__animated animate__bounceInLeft animate__delay-5s">
+              <h2 class="mb-2 font-bold tracking-tight text-gray-900 dark:text-white md:text-5xl text-3xl">Noteworthy technology acquisitions 2021</h2>
+              <p class="my-6 font-normal text-gray-700 dark:text-gray-400">What makes quick commerce quick? We stand for swift personalised delivery solutions for our customers, partners and employees. Learn how we empower authentic lifestyles and drive innovation across the globe.</p>
+              <button type="button" class="my-6 focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Read our story</button>
+          </div>
+          <img class="animate__animated animate__bounceInRight animate__delay-5s object-cover w-full rounded-t-lg h-96 md:h-auto  " src="https://www.foodpanda.com/wp-content/uploads/2023/02/foodpanda-home-3.jpg" alt="">
+        </a>
+      </section>
 @endsection

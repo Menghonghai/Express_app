@@ -1,10 +1,9 @@
 
-
-<footer class="bg-white dark:bg-gray-900">
-    <div class="mx-auto w-full max-w-screen-xl">
+<footer class="bg-gray-900 text-white dark:bg-gray-900">
+    <div class="text-center mx-auto w-full max-w-screen-xl">
       <div class="grid md:p-10 grid-cols-1 gap-8 py-6 lg:py-8 md:grid-cols-4">
         <div>
-            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Company</h2>
+            <h2 class="md:mb-6 lg:mb-6 text-sm font-semibold text-white uppercase dark:text-white">Company</h2>
             <ul class="text-gray-500 dark:text-gray-400 font-medium">
                 <li class="mb-4">
                     <a href="#" class=" hover:underline">About</a>
@@ -21,7 +20,7 @@
             </ul>
         </div>
         <div>
-            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Help center</h2>
+            <h2 class="md:mb-6 lg:mb-6 text-sm font-semibold text-white uppercase dark:text-white">Help center</h2>
             <ul class="text-gray-500 dark:text-gray-400 font-medium">
                 <li class="mb-4">
                     <a href="#" class="hover:underline">Discord Server</a>
@@ -38,7 +37,7 @@
             </ul>
         </div>
         <div>
-            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
+            <h2 class="md:mb-6 lg:mb-6 text-sm font-semibold text-white uppercase dark:text-white">Legal</h2>
             <ul class="text-gray-500 dark:text-gray-400 font-medium">
                 <li class="mb-4">
                     <a href="#" class="hover:underline">Privacy Policy</a>
@@ -52,7 +51,7 @@
             </ul>
         </div>
         <div>
-            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Download</h2>
+            <h2 class="md:mb-6 lg:mb-6 text-sm font-semibold text-white uppercase dark:text-white">Download</h2>
             <ul class="text-gray-500 dark:text-gray-400 font-medium">
                 <li class="mb-4">
                     <a href="#" class="hover:underline">iOS</a>
@@ -70,3 +69,4 @@
         </div>
     </div>
 </footer>
+

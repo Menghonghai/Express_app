@@ -12,8 +12,7 @@ class LocalizationController extends Controller
         if (in_array($lang, ['en','kh'])) {
             App::setLocale($lang);
             Session::put('locale',$lang);
-            // dd($lang);
         } 
-        return back();
+        return redirect()->back();
     }
 }

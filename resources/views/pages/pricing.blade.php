@@ -8,7 +8,7 @@
 @endsection
 
 @section('content')
-    <section class="pricing" id="pricing">
+    <section class="pricing px-4 md:px-0 pt-400" id="pricing">
         <div class="container">
             <h2 class="title text-red-700">The Right Plan for Your Business</h2>
             <p class="description">
@@ -24,8 +24,8 @@
         </div>
     </section>
 
-    <section class="pricing-card max-w-screen-xl mx-auto md:py-8 my-8">
-        <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+    <section class="lg:px-4 md:px-0 pricing-card max-w-screen-xl mx-auto md:py-8 my-8">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-4 w-full">
 
             <div
                 class="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">

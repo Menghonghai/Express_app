@@ -21,11 +21,18 @@
       flex-wrap: wrap;
 
     }
+    @media screen and (max-width: 450px) {
+    .about_top{
+        margin-top: 100px
+        /* font-size: 71px; */
+    
+    }
+  }
     </style>
 @endsection
 
 @section('content')
-    <section class="news-release max-w-screen-xl mx-auto md:py-8 my-10">
+    <section class="about_top news-release max-w-screen-xl mx-auto md:py-8 my-10 px-4">
         <h1 class=" mb-8 mt-12 text-5xl font-bold">
             Newsroom
         </h1>
@@ -49,7 +56,7 @@
 
     </section>
 
-    <section class="news-carousel max-w-screen-xl mx-auto ">
+    <section class="news-carousel max-w-screen-xl mx-auto md:px-4">
         <div id="default-carousel" class="relative w-full" data-carousel="slide">
           <!-- Carousel wrapper -->
           <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
@@ -152,11 +159,11 @@
         </div>
     </section>
 
-    <section class="taps-news max-w-screen-xl mx-auto md:py-8 my-10 md:flex justify-between content-width pt-8 md:pt-0 mt-8 md:mt-16 ">
+    <section class="px-4 taps-news max-w-screen-xl mx-auto md:py-8 my-10 md:flex justify-between content-width pt-8 md:pt-0 mt-8 md:mt-16 ">
         
-        <h3 class="md:mb-0 mb-6 text-3xl font-bold">Discover latest news</h3>
+        <h3 class="md:mb-0 mb-6 text-3xl font-bold animate__animated animate__bounceInLeft animate__delay-1s">Discover latest news</h3>
 
-        <div class="mb-4 dark:border-gray-700">
+        <div class="mb-4 dark:border-gray-700 animate__animated animate__bounceInRight animate__delay-1s">
             <ul class="mb-px text-sm font-medium">
                 <li class="me-2 mb-4 inline-block" role="presentation">
                     <button class=" text-red-700 hover:text-white hover:bg-red-800  focus:outline-none focus:border-gray-900 focus:bg-gray-900 focus:text-white font-medium rounded-xl text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-red-500 dark:text-red-500 dark:hover:text-white dark:hover:bg-red-600 uppercase" >all</button>
@@ -170,95 +177,93 @@
                 <li class="me-2 mb-4  inline-block" role="presentation">
                     <button class="inline-block text-red-700 hover:text-white hover:bg-red-800  focus:outline-none focus:border-gray-900 focus:bg-gray-900 focus:text-white font-medium rounded-xl text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-red-500 dark:text-red-500 dark:hover:text-white dark:hover:bg-red-600 uppercase" >+more</button>
                 </li>
-            
-                
             </ul>
         </div>
 
     </section>
 
-    <section class="card-news max-w-screen-xl mx-auto md:py-8 my-10 ">
+    <section class="card-news max-w-screen-xl mx-auto md:py-8 my-10 px-4">
         
         <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
             <div class="max-w-full dark:bg-gray-800 dark:border-gray-700">
-                <a href="#">
+                <div>
                     <img class="rounded-t-lg" src="https://www.foodpanda.com/wp-content/uploads/2024/05/042A4061-scaled.jpg" alt="" />
-                </a>
-                <div class="p-5 pl-0">
+                </div>
+                <div class="p-5 pl-0 ">
                     <a href="" class="text-red-700 uppercase text-sm font-bold mr-4 text-primary-500">Business</a>
                     <a href="" class="text-red-700 uppercase text-sm font-bold mr-4 text-primary-500">Editorials</a>
                     <a href="#">
-                        <h5 class="py-4 w-5/6 mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">How foodpanda CFO Jamie O’Mahony is Navigating 2024</h5>
+                        <h5 class="py-4 w-5/6 mb-2 md:text-xl font-bold tracking-tight text-gray-900 dark:text-white">How foodpanda CFO Jamie O’Mahony is Navigating 2024</h5>
                     </a>
                     <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">17 Jan 2024</p>
                     
                 </div>
             </div>
             <div class="max-w-full dark:bg-gray-800 dark:border-gray-700">
-                <a href="#">
+                <div>
                     <img class="rounded-t-lg" src="https://www.foodpanda.com/wp-content/uploads/2024/05/042A4061-scaled.jpg" alt="" />
-                </a>
-                <div class="p-5 pl-0">
+                </div>
+                <div class="p-5 pl-0 ">
                     <a href="" class="text-red-700 uppercase text-sm font-bold mr-4 text-primary-500">Business</a>
                     <a href="" class="text-red-700 uppercase text-sm font-bold mr-4 text-primary-500">Editorials</a>
                     <a href="#">
-                        <h5 class="py-4 w-5/6 mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">How foodpanda CFO Jamie O’Mahony is Navigating 2024</h5>
+                        <h5 class="py-4 w-5/6 mb-2 md:text-xl font-bold tracking-tight text-gray-900 dark:text-white">How foodpanda CFO Jamie O’Mahony is Navigating 2024</h5>
                     </a>
                     <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">17 Jan 2024</p>
                     
                 </div>
             </div>
             <div class="max-w-full dark:bg-gray-800 dark:border-gray-700">
-                <a href="#">
+                <div>
                     <img class="rounded-t-lg" src="https://www.foodpanda.com/wp-content/uploads/2024/05/042A4061-scaled.jpg" alt="" />
-                </a>
-                <div class="p-5 pl-0">
+                </div>
+                <div class="p-5 pl-0 ">
                     <a href="" class="text-red-700 uppercase text-sm font-bold mr-4 text-primary-500">Business</a>
                     <a href="" class="text-red-700 uppercase text-sm font-bold mr-4 text-primary-500">Editorials</a>
                     <a href="#">
-                        <h5 class="py-4 w-5/6 mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">How foodpanda CFO Jamie O’Mahony is Navigating 2024</h5>
+                        <h5 class="py-4 w-5/6 mb-2 md:text-xl font-bold tracking-tight text-gray-900 dark:text-white">How foodpanda CFO Jamie O’Mahony is Navigating 2024</h5>
                     </a>
                     <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">17 Jan 2024</p>
                     
                 </div>
             </div>
             <div class="max-w-full dark:bg-gray-800 dark:border-gray-700">
-                <a href="#">
+                <div>
                     <img class="rounded-t-lg" src="https://www.foodpanda.com/wp-content/uploads/2024/05/042A4061-scaled.jpg" alt="" />
-                </a>
-                <div class="p-5 pl-0">
+                </div>
+                <div class="p-5 pl-0 ">
                     <a href="" class="text-red-700 uppercase text-sm font-bold mr-4 text-primary-500">Business</a>
                     <a href="" class="text-red-700 uppercase text-sm font-bold mr-4 text-primary-500">Editorials</a>
                     <a href="#">
-                        <h5 class="py-4 w-5/6 mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">How foodpanda CFO Jamie O’Mahony is Navigating 2024</h5>
+                        <h5 class="py-4 w-5/6 mb-2 md:text-xl font-bold tracking-tight text-gray-900 dark:text-white">How foodpanda CFO Jamie O’Mahony is Navigating 2024</h5>
                     </a>
                     <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">17 Jan 2024</p>
                     
                 </div>
             </div>
             <div class="max-w-full dark:bg-gray-800 dark:border-gray-700">
-                <a href="#">
+                <div>
                     <img class="rounded-t-lg" src="https://www.foodpanda.com/wp-content/uploads/2024/05/042A4061-scaled.jpg" alt="" />
-                </a>
-                <div class="p-5 pl-0">
+                </div>
+                <div class="p-5 pl-0 ">
                     <a href="" class="text-red-700 uppercase text-sm font-bold mr-4 text-primary-500">Business</a>
                     <a href="" class="text-red-700 uppercase text-sm font-bold mr-4 text-primary-500">Editorials</a>
                     <a href="#">
-                        <h5 class="py-4 w-5/6 mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">How foodpanda CFO Jamie O’Mahony is Navigating 2024</h5>
+                        <h5 class="py-4 w-5/6 mb-2 md:text-xl font-bold tracking-tight text-gray-900 dark:text-white">How foodpanda CFO Jamie O’Mahony is Navigating 2024</h5>
                     </a>
                     <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">17 Jan 2024</p>
                     
                 </div>
             </div>
             <div class="max-w-full dark:bg-gray-800 dark:border-gray-700">
-                <a href="#">
+                <div>
                     <img class="rounded-t-lg" src="https://www.foodpanda.com/wp-content/uploads/2024/05/042A4061-scaled.jpg" alt="" />
-                </a>
-                <div class="p-5 pl-0">
+                </div>
+                <div class="p-5 pl-0 ">
                     <a href="" class="text-red-700 uppercase text-sm font-bold mr-4 text-primary-500">Business</a>
                     <a href="" class="text-red-700 uppercase text-sm font-bold mr-4 text-primary-500">Editorials</a>
                     <a href="#">
-                        <h5 class="py-4 w-5/6 mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">How foodpanda CFO Jamie O’Mahony is Navigating 2024</h5>
+                        <h5 class="py-4 w-5/6 mb-2 md:text-xl font-bold tracking-tight text-gray-900 dark:text-white">How foodpanda CFO Jamie O’Mahony is Navigating 2024</h5>
                     </a>
                     <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">17 Jan 2024</p>
                     
@@ -271,7 +276,7 @@
 
     </section>
 
-    <section class="max-w-screen-xl mx-auto md:py-8 my-10 cards-grid-section newsroom-content bg-grey-200 ">
+    <section class="px-4 max-w-screen-xl mx-auto md:py-8 my-10 cards-grid-section newsroom-content bg-grey-200 ">
         <div class="section__cards-grid__content w-full relative">
             <div class="section__cards-grid__content__items grid auto-rows-max md:my-8 my-4 grid-cols-1 gap-4 md:gap-8 md:gap-y-12 sm:grid-cols-2 xl:grid-cols-3">
                 <ul class="card-item card-item--icon text-left h-full flex flex-col ">

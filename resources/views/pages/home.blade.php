@@ -1,4 +1,6 @@
 @extends('layout.app')
+@section('blade_css')
+@endsection
 
 @section('content')
   <section class="hero ">
@@ -7,15 +9,15 @@
     </video>
     <div class="title">
       <div class="">
-        <h2>food and groceries <br>
+        <h2 class="animate__animated animate__backInLeft md:text-5xl text-3xl">food and groceries <br>
           in a tap</h2>
         </div>
     </div>
   </section>
-  <section class="section__text text-left max-w-screen-xl mx-auto md:py-8">
+  <section class="section__text text-left max-w-screen-xl md:mx-auto md:py-8 ">
     <div class="p-4 md:p-0 w-full"></div>
-    <div class=" m-4 md:m-0 grid-cols-1">
-      <h2 class="py-12 text-5xl">
+    <div class="lg:px-4 m-4 md:m-0 grid-cols-1 ">
+      <h2 class="md:py-12 md:text-5xl text-3xl lg:text-3xl">
         We’re here to help you live life the panda way.
         <br>        
         Spend more time doing what you love – we’ll take
@@ -25,40 +27,40 @@
     </div>
   </section>
 
-  <section class="card max-w-screen-xl mx-auto md:py-8 ">
-    <a href="#" class=" grid grid-cols-1 gap-6 sm:grid-cols-2 bg-white border-gray-200  dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-      <img class="object-cover w-full rounded-t-lg h-96 md:h-auto  " src="https://www.foodpanda.com/wp-content/uploads/2023/02/fp-home.jpg" alt="">
-      <div>
-          <h2 class="mb-2 text-5xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h2>
+  <section class="m-section card max-w-screen-xl md:mx-auto md:px-0">
+    <div class="sm:mx-4 grid grid-cols-1 gap-6 sm:grid-cols-2 bg-white border-gray-200  dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+      <img class="object-cover w-full rounded-t-lg h-96 md:h-auto animate__animated animate__backInLeft animate__delay-1s" src="https://www.foodpanda.com/wp-content/uploads/2023/02/fp-home.jpg" alt="">
+      <div class="animate__animated animate__backInRight animate__delay-1s">
+          <h2 class="mb-2 font-bold tracking-tight text-gray-900 dark:text-white md:text-5xl text-3xl">Noteworthy technology acquisitions 2021</h2>
           <p class="my-6 font-normal text-gray-700 dark:text-gray-400">What makes quick commerce quick? We stand for swift personalised delivery solutions for our customers, partners and employees. Learn how we empower authentic lifestyles and drive innovation across the globe.</p>
           <button type="button" class="my-6 focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Read our story</button>
       </div>
-    </a>
+    </div>
   </section>
 
-  <section class="card max-w-screen-xl mx-auto md:py-8 my-10">
-    <a href="#" class=" grid grid-cols-1 gap-6 sm:grid-cols-2 bg-white border-gray-200  dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-      <div>
-          <h2 class="mb-2 text-5xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h2>
+  <section class="m-section card max-w-screen-xl md:mx-auto md:py-8 my-10 md:px-0">
+    <div class="sm:mx-4 grid grid-cols-1 gap-6 sm:grid-cols-2 bg-white border-gray-200  dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+      <div class="md:order-none lg:order-none order-2 animate__animated animate__backInLeft animate__delay-2s">
+          <h2 class="mb-2 md:text-5xl font-bold tracking-tight text-gray-900 dark:text-white text-3xl">Noteworthy technology acquisitions 2021</h2>
           <p class="my-6 font-normal text-gray-700 dark:text-gray-400">What makes quick commerce quick? We stand for swift personalised delivery solutions for our customers, partners and employees. Learn how we empower authentic lifestyles and drive innovation across the globe.</p>
           <button type="button" class="my-6 focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Read our story</button>
       </div>
-      <img class="object-cover w-full rounded-t-lg h-96 md:h-auto  " src="https://www.foodpanda.com/wp-content/uploads/2023/02/foodpanda-home-2-1024x576.jpg" alt="">
-    </a>
+      <img class="md:order-none lg:order-none order-1 object-cover w-full rounded-t-lg h-96 md:h-auto animate__animated animate__backInRight animate__delay-2s" src="https://www.foodpanda.com/wp-content/uploads/2023/02/foodpanda-home-2-1024x576.jpg" alt="">
+    </div>
   </section>
 
-  <section class="card max-w-screen-xl mx-auto md:py-8 ">
-    <a href="#" class=" grid grid-cols-1 gap-6 sm:grid-cols-2 bg-white border-gray-200  dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-      <img class="object-cover w-full rounded-t-lg h-96 md:h-auto  " src="https://www.foodpanda.com/wp-content/uploads/2023/04/jason-goodman-Oalh2MojUuk-unsplash-1024x683.jpg" alt="">
-      <div>
-          <h2 class="mb-2 text-5xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h2>
+  <section class="m-section card max-w-screen-xl md:mx-auto md:py-8 px-4 md:px-0">
+    <div class=" grid grid-cols-1 gap-6 sm:grid-cols-2 bg-white border-gray-200  dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+      <img class="animate__animated animate__backInLeft animate__delay-3s object-cover w-full rounded-t-lg h-96 md:h-auto  " src="https://www.foodpanda.com/wp-content/uploads/2023/04/jason-goodman-Oalh2MojUuk-unsplash-1024x683.jpg" alt="">
+      <div class="animate__animated animate__backInRight animate__delay-3s ">
+          <h2 class="mb-2 font-bold tracking-tight text-gray-900 dark:text-white md:text-5xl text-3xl text-3xl">Noteworthy technology acquisitions 2021</h2>
           <p class="my-6 font-normal text-gray-700 dark:text-gray-400">What makes quick commerce quick? We stand for swift personalised delivery solutions for our customers, partners and employees. Learn how we empower authentic lifestyles and drive innovation across the globe.</p>
           <button type="button" class="my-6 focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Read our story</button>
       </div>
-    </a>
+    </div>
   </section>
 
-  <section class="carousel">
+  <section class="carousel ">
     
 
     <div id="default-carousel" class="relative " data-carousel="slide">
@@ -115,14 +117,17 @@
   </section>
 
 
-  <section class="card max-w-screen-xl mx-auto md:py-12 my-10">
-    <a href="#" class=" grid grid-cols-1 gap-6 sm:grid-cols-2 bg-white border-gray-200  dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-      <div>
-          <h2 class="mb-2 text-5xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h2>
+  <section class="m-section card max-w-screen-xl md:mx-auto md:py-12 my-10 px-4 md:px-0">
+    <a class=" grid grid-cols-1 gap-6 sm:grid-cols-2 bg-white border-gray-200  dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+      <div class="animate__animated animate__backInLeft animate__delay-4s">
+          <h2 class="mb-2 font-bold tracking-tight text-gray-900 dark:text-white md:text-5xl text-3xl">Noteworthy technology acquisitions 2021</h2>
           <p class="my-6 font-normal text-gray-700 dark:text-gray-400">What makes quick commerce quick? We stand for swift personalised delivery solutions for our customers, partners and employees. Learn how we empower authentic lifestyles and drive innovation across the globe.</p>
           <button type="button" class="my-6 focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Read our story</button>
       </div>
-      <img class="object-cover w-full rounded-t-lg h-96 md:h-auto  " src="https://www.foodpanda.com/wp-content/uploads/2023/02/foodpanda-home-3.jpg" alt="">
+      <img class="object-cover w-full rounded-t-lg h-96 md:h-auto  animate__animated animate__backInRight animate__delay-4s" src="https://www.foodpanda.com/wp-content/uploads/2023/02/foodpanda-home-3.jpg" alt="">
     </a>
   </section>
+
+
+  
 @endsection

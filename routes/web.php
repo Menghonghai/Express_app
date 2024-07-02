@@ -8,6 +8,7 @@ use App\Http\Controllers\MerchantController;
 use App\Http\Controllers\NewsController;
 use App\Http\Controllers\PricingController;
 use App\Http\Controllers\SolutionController;
+use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Route;
 
 /*
