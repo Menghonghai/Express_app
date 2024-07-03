@@ -60,7 +60,7 @@
     </div>
   </section>
 
-  <section class="section__text carousel ">
+  <section class="section__text carousel mt-6">
     
 
     <div id="default-carousel" class="relative " data-carousel="slide">

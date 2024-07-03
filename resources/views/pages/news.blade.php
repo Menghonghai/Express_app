@@ -60,7 +60,7 @@
 
     </section>
 
-    <section class="section__text news-carousel max-w-screen-xl mx-auto md:px-4">
+    <section class=" section__text news-carousel max-w-screen-xl mx-auto md:px-4">
         <div id="default-carousel" class="relative w-full" data-carousel="slide">
           <!-- Carousel wrapper -->
           <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
@@ -161,6 +161,9 @@
               </span>
           </button>
         </div>
+    </section>
+
+   >
     </section>
 
     <section class="section__text px-4 taps-news max-w-screen-xl mx-auto md:py-8 my-10 md:flex justify-between content-width pt-8 md:pt-0 mt-8 md:mt-16 ">
